@@ -1,0 +1,51 @@
+.linktree-container {
+    background-color: #0d0d0d; /* Fundo escuro igual ao exemplo */
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffcc00;
+    margin-bottom: 15px;
+}
+
+.profile-header h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.links-list {
+    width: 100%;
+    max-width: 500px;
+}
+
+.link-item {
+    background-color: #335599; /* Azul dos botões da imagem */
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 18px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.link-item:hover {
+    transform: scale(1.02);
+    background-color: #224488;
+}
